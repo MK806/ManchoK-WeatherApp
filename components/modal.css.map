@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,GAAG,MAAM,CAAC;EACjB,MAAM,EAAE,eAAe;EACvB,OAAO,EAAE,GAAG;EACZ,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "modal.scss"
+    ],
+    "names": [],
+    "file": "modal.css"
+}

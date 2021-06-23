@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://wallpaperaccess.com/full/2629841.jpg');
+    background-size: cover;
+}
+
+.App {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+}
+
+.search-container {
+    max-width: 20%;
+    height: 3vh;
+    margin-left: 600px;
+    div.search {
+        margin: 20px auto;
+    }
+    input {
+        width: 50%;
+        font-size: 17px;
+        padding: 7px 20px;
+        border-radius: 20px;
+        border: 1px solid black;
+        background: transparent;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+div.main-container {
+    position: relative;
+}
+
+div.today-container {
+    width: 40%;
+    height: 30vh;
+    margin: 0px auto;
+    background: transparent;
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+div.image-container {
+    text-align: center;
+}
+
+div.info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+}
+
+.error-container {
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.error-text {
+    background-color: rgb(42, 40, 49);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.forecast-container {
+    width: 66%;
+    display: flex;
+    margin-left: 220px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    .forecast-day {
+        height: 100%;
+        width: 100px;
+        margin: 0;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1px solid black;
+        border-radius: 30px;
+        text-align: center;
+    }
+}
+
+.forecast-day {
+    >p.weekday {
+        font-size: 0.9em;
+        margin: 8px auto 0 auto;
+        text-align: center;
+    }
+    img {
+        margin: 0;
+        padding: 0;
+    }
+    >p.daily-temp {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.text-info-container {
+    >p {
+        font-weight: 600;
+    }
+}
+
+.weather-text {
+    color: red;
+}
+
