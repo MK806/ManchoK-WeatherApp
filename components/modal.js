@@ -15,7 +15,7 @@ const MyModal = () => {
       <Modal open={open} onClose={onCloseModal} center>
         <h3>Hourly Forecast</h3>
         <p>
-         აქ საათობრივი პროგნოზი უნდა ყოფილიყო :(
+        Hourly Forecast
         </p>
       </Modal>
     </div>
